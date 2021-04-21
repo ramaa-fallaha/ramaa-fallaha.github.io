@@ -1,0 +1,256 @@
+body {
+  color: rgb(13, 14, 13);
+  font-size: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  background-image: url(9.jpg);
+
+  
+
+}
+}
+
+  a:link, visited {color:#202441;}
+  a:link, visited {color: darkmagenta;}
+  .body{
+  margin: 10px auto;
+  width: 80%;
+  clear: both;
+
+  }
+
+  .mainheder img{
+      width: 100%;
+
+  }
+  .mainheder nav{
+      background-color: rgb(204, 248, 10);
+      height: 40%;
+      border-radius: 10px;
+  }
+  .mainheder nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 10px auto;
+    padding: 10px 40px;
+  }
+ 
+  .mainheder nav ul li{
+    display: inline;
+    padding: 10px 80px;
+  }
+  .mainheder a :link , .mainheder a :visited {
+    color: rgb(4, 7, 179);
+  
+   display: inline-block;
+   height: 20px;
+  }
+  .mainheder a :hover, .mainheder a :active {
+    color: blue;
+    background-color: rgb(10, 155, 34);
+
+  }
+  .top-contect{
+    background-color: #85e7f8;
+    padding: 3%;
+    margin-top: 3%;
+    border-radius: 30px;
+  }
+  .post-info{
+    font-size: 90%;
+    color: rgb(70, 69, 69);
+    font-style: italic;
+    margin: -20px
+  
+  }
+  .mainconect{
+    float: left;
+    width: 70%;
+    padding: 2%;
+   
+  }
+  .thesidbar{
+    margin: 2% 0 0 2%;
+    width: 20%;
+    float: left;
+    background-color: rgb(247, 206, 103);
+    border-radius: 10px;
+    padding: 2%;
+   
+    }
+    .theend{
+    text-align: center;
+    list-style: none;
+    margin: 10px auto;
+    padding: 10px 40px;
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(11, 139, 148);
+    height: 60%;
+    border-radius: 70px;
+  }
+  .post_img{
+    width: 500px;
+    border: 4px;
+    border-style: solid;
+   
+    margin-right: auto;
+    display: block;
+
+
+    
+  }
+  figure{
+    margin: 25px 0  ;
+    font-size: 90%;
+    color: rgb(97, 96, 96);
+  }
+    
+    
+ /*................................test.............................*/
+
+ .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #333333;
+  color: #fff;
+  height: 60px;
+  box-shadow:-1px 5px 1px  #acd1e6;
+  background: rgb(241,102,8);
+  background: linear-gradient(90deg, rgba(241,102,8,1) 0%, rgba(245,224,20,1) 56%, rgba(0,212,255,1) 100%); 
+}
+.menu #logo{
+float: left;
+height: 30px;
+padding: 15px 30px;
+font-size: 1.2em;
+line-height: 30px;
+display: none;
+}
+.mylogo{
+  float: left;
+  height: 60px;
+  padding: 0 0 0 0;
+  font-size: 1em;
+  line-height: 30px;
+}
+
+.menu > ul{
+margin: 0;
+padding: 0;
+float: left;
+list-style-type: none;
+
+}
+.menu > ul li {
+  float: left;
+}
+.menu_item{
+  display: inline-block;
+  padding: 15px 20px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu_item:hover{
+  background-color: #2ba5ec;
+}
+
+/*................................sub.............................*/
+
+.sub_contect{
+  position: absolute;
+  top: 60px;
+  overflow: hidden;
+  background-color: #333;
+  max-height: 0;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(49,196,185,1) 7%, rgba(253,237,45,1) 81%);
+}
+
+.sub_contect a{
+  color: #fff;
+  text-decoration: none;
+  
+}
+.sub_drop{
+  padding: 0;   
+}
+.sub_drop ul{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.sub_drop ul li a {
+  display:inline-block ;
+  padding: 10px 20px;
+}
+.sub_drop ul li:hover{
+  background-color: #2ba5ec; 
+
+}
+
+/*................................control.............................*/
+
+.menu_item:focus{
+  background-color: #2ba5ec;
+
+}
+.menu ul li:hover .sub_contect  {
+  max-height: 400px;
+ -webkit-transition: max-height 0.3s ease-in;
+ -moz-transition: max-height 0.3s ease-in;
+}
+
+#rmenu{
+  float: right;
+}
+
+/*................................content.............................*/
+
+.sametext{
+padding: 30px;
+font-size: 2em;
+text-align: center;
+font-weight: bold;
+margin-top: 65px;
+text-shadow: 5px 10px 10px #333333;
+}
+
+.sametext span{
+  padding: 40px;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bolder;
+  color: #fc0808;
+  
+   }
+   
+
+
+   /*...................................................*/
+
+   h2{
+     color: red;
+    
+   }
+
+
+
+
+
+
+
+
+
+
+ 
